@@ -1,3 +1,9 @@
+#headerWrapper {
+  background-color: white;
+}
+
+/* FULL PAGE STYLING */
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +30,12 @@ html, body {
   padding-bottom: 60px;
 }
 
+/* NAVBAR */
+
+#header-wrapper {
+  background-color: white;
+}
+
 .navbar-brand {
   background-color: #00887a;
   padding: 10px 60px;
@@ -38,20 +50,15 @@ html, body {
   padding-top: 30px;
 }
 
-
-
-#headerWrapper {
-  background-color: white;
-}
-
 #navbar-full {
   background-color: white;
 }
 
-#nav-column {
-  padding-left: 0px !important;
-  padding-right: 0px;
+.nav-column {
+  padding: 0px;
 }
+
+/* MAIN CONTENT */
 
 h2 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -60,29 +67,39 @@ h2 {
   color: #00887a;
 }
 
-#profilePicture {
+#content-column {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#profile-picture {
   margin-right: 30px;
   margin-top: 10px;
 }
 
-.aboutPara {
+.about-para {
   line-height: 2.3;
   font-size: 18px;
   color: #777;
 }
 
-
-
-#aboutMe {
-  background: white;
+#githubCard {
   margin-top: 20px;
-  padding: 20px;
-  border-radius: 3px;
-
+  padding-right: 0px;
+  padding-left: -20px;
+  text-align: center;
 }
 
-.neg-margin-footer {
-  margin-top: -60px;
+#card-btn {
+  background: #00887a;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 30px;
   width: 100%;
   color: #ccc;
   height: 60px;
@@ -92,8 +109,8 @@ h2 {
   text-align: center;
 }
 
-.footer {
-  margin-top: 30px;
+.neg-margin-footer {
+  margin-top: -60px;
   width: 100%;
   color: #ccc;
   height: 60px;
@@ -115,21 +132,7 @@ h2 {
   text-align: center;
 }
 
-#githubCard {
-  margin-top: 20px;
-  padding-right: 0px;
-  padding-left: 20px;
-  text-align: center;
-
-}
-
-#card-btn {
-  background: #00887a;
-}
-
-.narrow-element {
-  width: 70%
-}
+/* PORTFOLIO IMAGES */
 
 .thumbnail  {
   background: white;
@@ -155,8 +158,15 @@ h2 {
   padding: 0px !important;
 }
 
+/* CONTACT PAGE */
 button {
   background: #00887a !important;
+}
+
+/* RESPONSIVENESS */
+
+.narrow-element {
+  width: 70%
 }
 
 @media (max-width: 992px) {
