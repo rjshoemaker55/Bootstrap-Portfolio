@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.navbar-brand {
+  background-color: #00887a;
+  padding: 10px 60px;
+  color: #edf5e1 !important;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navbar {
+  padding: 0px;
+  padding-top: 30px;
+}
+
+
+
+#headerWrapper {
+  background-color: white;
+}
+
+#navbar-full {
+  background-color: white;
+}
+
+#nav-column {
+  padding-left: 0px !important;
+  padding-right: 0px;
+}
+
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00887a;
+}
+
+#profilePicture {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.aboutPara {
+  line-height: 2.3;
+  font-size: 18px;
+  color: #777;
+}
+
+
+
+#aboutMe {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 3px;
+
+}
+
+.neg-margin-footer {
+  margin-top: -60px;
+  width: 100%;
+  color: #ccc;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  border-top: 3px solid #00887a;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 30px;
+  width: 100%;
+  color: #ccc;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  border-top: 3px solid #00887a;
+  text-align: center;
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ccc;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  border-top: 3px solid #00887a;
+  text-align: center;
+}
+
+#githubCard {
+  margin-top: 20px;
+  padding-right: 0px;
+  padding-left: 20px;
+  text-align: center;
+
+}
+
+#card-btn {
+  background: #00887a;
+}
+
+.narrow-element {
+  width: 70%
+}
+
+.thumbnail  {
+  background: white;
+  border: 1px #777 solid;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.thumbnail img {
+  border-bottom: 1px #777 solid;
+}
+
+.thumbnail p {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+  background: #00887a;
+  color: white;
+  font-weight: bold;
+}
+
+.portfolio-col {
+  padding: 0px !important;
+}
+
+button {
+  background: #00887a !important;
+}
+
+@media (max-width: 992px) {
+  #githubCard {
+    width: 60%;
+    padding-left: 0px;
+    margin: 20px auto;
+  }
+
+  .narrow-element {
+    width: 100%;
+  }
+}
